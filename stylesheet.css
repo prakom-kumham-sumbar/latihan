@@ -1,0 +1,113 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+.container {
+  width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-menu {
+  float: right;
+}
+
+.header-right a {
+  float: left;
+  line-height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  display: block;
+  
+}
+
+.login {
+  margin: 0 2px;
+  float: right;
+  background-color: rgba(207, 11, 11, 0.493);
+  transition: all 0.5s;
+}
+
+/*klik*/
+.login:hover {
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.info:hover {
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.artikel:hover {
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.home:hover {
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.profil:hover {
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
